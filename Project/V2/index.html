@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html> <!--M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page --> 
+<html> 
     <head>
         <meta charset="UTF-8"/>
-        <link href="styles.css" rel="stylesheet"/>  <!-- M1LO8 Demonstrate the use of external style sheets-->     
+        <link href="reset.css" rel="stylesheet"/>     <!--M3LO1 Demonstrate the use of a CSS reset style sheet-->
+        <link href="styles.css" rel="stylesheet"/>       
         <title>Hello</title>
     </head>
     <body>
         <header>
-            <img src="lotrart3.jpg"/>
-            <blockquote>"All's well that ends better"</blockquote>
+            <div class="Header">
+            <img src="lotrart3.jpg" alt="Header" class="center"/>
+            </div><br>   
             <nav> 
-                <ul> <!--M1LO12 Create navigation using unordered lists --> 
-                    <li><a href="humans.html">Humans</a></li>
-                    <li><a href="elves.html">Elves</a></li>  <!--M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external-->  
-                    <li><a href="dwarves.html">Dwarves</a></li> <!--M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external--> 
-                    <li><a href="hobbits.html">Hobbits</a></li> <!--M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external--> 
-                    <li><a href="index.html">Home</a></li>
+                <div class="List">
+                <ul id="horizontal"> 
+                   <li><a href="humans.html" class="humansLi">Humans</a></li> 
+                    <li><a href="elves.html" class="elvesLi">Elves</a></li>  
+                    <li><a href="dwarves.html" class="dwarvesLi">Dwarves</a></li>  
+                    <li><a href="hobbits.html" class="hobbitsLi">Hobbits</a></li>  
+                    <li><a href="index.html" class="homeLi">Home</a></li>
                 </ul>
+                </div>
             </nav>
         </header>     
-        <article>
-            <p><h1>Welcome!</h1>This site is an appreciation</p>
+        <article><br><br>
+            <!-- <div class="quote">
+                <blockquote>"All's well that ends better"</blockquote>
+                </div> -->
+            <p><h1>Welcome!<br><br></h1>This site is an appreciation</p>
                 <p> of J. R. R. Tolkien's work.</p> 
-            <img src="lotr-art-1.jpg"/><!--M1LO9 Demonstrate the use of inline images -->
+            <div class="Article">
+            <img src="lotr-art-1.jpg" alt="Article text" class="artImg"/>
+            </div>
         </article>
-        <footer>
-            
-        </footer>
     </body>
 </html>

@@ -6,48 +6,84 @@
    Filename: styles.css
 
 */
-
-
-
 /* Structural Styles */
 html{
-    background-color: hsl(60, 53%, 17%); /* M2LO15 Apply colors using CSS  */
-}
+    background-color: rgb(151, 151, 151);
+}  
 header{
-    background-color:hsl(39, 74%, 64%); 
-    
+    background-color: rgb(243, 159, 159);
+    border-radius: 0% 0% 9.60% 9.60%;
+   
 }
-header img{ /* M2LO12 Demonstrate how CSS can change presentation of page elements */
-    position: inherit;
-    width: 56%;
-    display: flexbox;
-    padding-left: 390px;      
-} 
-blockquote{
-    text-align: center;
-    color: black;
-    text-emphasis: bolder;
-    margin: 0px auto 0px;
+div.quote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* M2LO13 Demonstrate how CSS can change presentation of textual elements */   
-}
-ul {
-    align-self: auto;
-    block-size: 3px, 3px, 3px, 3px;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    box-shadow: black 10% 10% 10% 10% /* M4LO5 Demonstrate the use of text or box shadowing */
 }
 /* Navigation Styles */
-#li{
-    font-size: 1.3em;
-    font-weight: bolder;
-    color: black;
-    
+header#horizontal{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* M3LO10 Demonstrate an overflow setting */
+    background-color: #333333
 }
-body > header nav{ /* M2LO5 Demonstrate contextual selectors */
-    display: block;
-    
+li{
+    float: left; /* M3LO2 Demonstrate floating elements   */
+}
+li a{
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;  
+}
+li a:hover{
+    -webkit-backdrop-filter: drop-shadow(10% 10% 10% 10%);
+    background-color: rgb(165, 151, 73);
+    border-radius: 30% 30% 30% 30%; /* M4LO3 Demonstrate the use of rounded corners for borders  */
 }
 
 /* Section Styles */
-
+.artImg{
+    display: block;
+    padding-right: 30%;
+ 
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body#GondorImg{
+    display: block;
+    margin-left: 53%;
+    margin-right: auto;
+    width: 30%;
+    height: 5%;
+    -webkit-backdrop-filter: opacity(0.6); /* M4LO6 Demonstrate the use of opacity/transparency for images */
+    background-size: 20% 46% ;
+}
+.quote{
+    display: inline;
+}
+h1{
+    display: inline-block;
+    width: 45em;
+    font-family: fantasy;
+    position: relative; /* M3LO8B Demonstrate relative positioning */
+    
+}
+p{
+    display: inline-block;
+ 
+}
 /* Definition List Styles */
