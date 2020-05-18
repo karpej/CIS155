@@ -1,12 +1,15 @@
 @charset "utf-8"; /* M1LO10 Demonstrate the use of special characters from extended character sets */
 /*
    CIS 155 
-   MO2 Project V1 
+   MO4 Project V2
    Author: Joseph Karper
    Filename: styles.css
 
 */
+
 /* Structural Styles */
+
+
 html{
     background-color: rgb(151, 151, 151);
 }  
@@ -28,7 +31,10 @@ div.quote{
     position: relative;
     box-shadow: black 10% 10% 10% 10% /* M4LO5 Demonstrate the use of text or box shadowing */
 }
+
 /* Navigation Styles */
+
+
 header#horizontal{ 
     list-style-type: none;
     margin: 0;
@@ -53,6 +59,8 @@ li a:hover{
 }
 
 /* Section Styles */
+
+
 .artImg{
     display: block;
     padding-right: 30%;
@@ -80,10 +88,8 @@ h1{
     width: 45em;
     font-family: fantasy;
     position: relative; /* M3LO8B Demonstrate relative positioning */
-    
 }
 p{
     display: inline-block;
- 
 }
 /* Definition List Styles */
