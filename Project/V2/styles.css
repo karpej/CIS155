@@ -27,9 +27,13 @@ div.quote{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
     position: relative;
-    box-shadow: black 10% 10% 10% 10% /* M4LO5 Demonstrate the use of text or box shadowing */
+    box-shadow: black 10% 10% 10% 40% /* M4LO5 Demonstrate the use of text or box shadowing */  
+}
+footer{
+    background-color: rgb(29, 54, 24);
+    border-radius: 20% 26% 0% 0%;
 }
 
 /* Navigation Styles */
@@ -63,33 +67,57 @@ li a:hover{
 
 .artImg{
     display: block;
-    padding-right: 30%;
- 
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-body#GondorImg{
+.gondorImg{
     display: block;
-    margin-left: 53%;
-    margin-right: auto;
-    width: 30%;
-    height: 5%;
+    padding-left: auto;
+    padding-right: auto;
+    height: 40%;
+    width: 40%;
     -webkit-backdrop-filter: opacity(0.6); /* M4LO6 Demonstrate the use of opacity/transparency for images */
-    background-size: 20% 46% ;
+}
+.hobbitImg{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    height: 40%;
+    width: 40%;
+    border: 5px black;
+}
+.dwarvesImg{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    height: 48%;
+    width: 33%;
+    border: 5px black; 
+}
+.elvesImg{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    height:25%;
+    width: 25%;
+    border: 5px black; 
 }
 .quote{
     display: inline;
 }
 h1{
-    display: inline-block;
-    width: 45em;
-    font-family: fantasy;
-    position: relative; /* M3LO8B Demonstrate relative positioning */
-}
-p{
-    display: inline-block;
+    display: block;
+    font-size: 2em;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* Definition List Styles */
