@@ -1,7 +1,7 @@
 @charset "utf-8"; /* M1LO10 Demonstrate the use of special characters from extended character sets */
 /*
    CIS 155 
-   MO6 Project V3
+   MO4 Project V2
    Author: Joseph Karper
    Filename: styles.css
 
@@ -15,7 +15,8 @@ html{
 }  
 header{
     background-color: rgb(243, 159, 159);
-    border-radius: 0% 0% 9.60% 9.60%; 
+    border-radius: 0% 0% 9.60% 9.60%;
+   
 }
 div.quote{
     display: block;
@@ -119,3 +120,4 @@ h1{
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* Definition List Styles */

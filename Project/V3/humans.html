@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8"/>
+        <link href="reset.css" rel="stylesheet"/>   
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="anotherStyle.css" rel="stylesheet"/> <!--M6LO7 Demonstrate how to format a table with CSS -->         
+        <title>HumanPage</title>
+    </head>
+    <body>
+        <header style="border: 0.7px solid black;">
+            <div class="Header">
+            <img src="Images/lotrart3.jpg" alt="Header" class="center"/>
+            </div><br>   
+            <nav> 
+                <div class="List">
+                <ul id="horizontal"> 
+                   <li><a href="humans.html" class="humansLi">Humans</a></li> 
+                    <li><a href="elves.html" class="elvesLi">Elves</a></li>  
+                    <li><a href="dwarves.html" class="dwarvesLi">Dwarves</a></li>  
+                    <li><a href="hobbits.html" class="hobbitsLi">Hobbits</a></li>  
+                    <li><a href="index.html" class="homeLi">Home</a></li>
+                </ul>
+                </div>
+            </nav>
+        </header>     
+        <article><br><br>
+            <p><h1>Humans!<br><br></h1></p>
+            <div class="Article">
+            <img src="https://www.brego.net/wp-content/uploads/2018/11/rohirrim-by-julaxart-deviantart.jpg"
+             alt="Article text" class="gondorImg"style="border:2.5px solid black">
+            </div><br>
+            <table> <!--M6LO3 Demonstrate how to create a table -->
+                <colgroup>
+                  <col id="firstCol"/>
+                  <col class="dataCol" span="2"/> <!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table -->
+                </colgroup>
+                <thead>
+                  <tr>
+                   <th rowspan="1">Stats</th> <!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table -->
+                  </tr>
+                  <tr>
+                   <th><br /></th> 
+                   <th><br /></th> 
+                   <th><br /></th> 
+                   <th><br /></th> 
+                  </tr>
+                </thead>
+              </table>
+        </article>
+        <footer style="border: 0.3px solid black;">
+            <br><br><br><br><br><br><br> 
+        </footer>
+    </body>
+</html>
